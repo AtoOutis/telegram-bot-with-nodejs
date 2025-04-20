@@ -1,4 +1,4 @@
-const bot = require('../index'); // make sure path is correct
+const bot = require('../bot'); // make sure path is correct
 
 export default async function handler(req, res) {
     if (req.method === 'POST') {
